@@ -10,7 +10,7 @@ class Score():
         self.points += 1
 
     def addGoal(self):
-        self.goal += 1
+        self.goals += 1
 
     def calculateScore(self):
         return (self.points * 1) + (self.goals * 3)
