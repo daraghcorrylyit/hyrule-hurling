@@ -12,5 +12,8 @@ class Score():
     def addGoal(self):
         self.goal += 1
 
+    def calculateScore(self):
+        return (self.points * 1) + (self.goals * 3)
+
 myScore = Score()
 print(myScore)
