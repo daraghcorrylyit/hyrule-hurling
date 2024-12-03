@@ -5,6 +5,12 @@ class Score():
     
     def __str__(self):
         return f"{self.goals:02d}:{self.points:02d}"
+    
+    def addPoint(self):
+        self.points += 1
+
+    def addGoal(self):
+        self.goal += 1
 
 myScore = Score()
 print(myScore)
